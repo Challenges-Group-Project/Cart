@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "160102996699",
+    "firebase_url": "https://falkenfoods-67a40.firebaseio.com",
+    "project_id": "falkenfoods-67a40",
+    "storage_bucket": "falkenfoods-67a40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160102996699:android:073d84b1ae9341ea6e4afe",
+        "android_client_info": {
+          "package_name": "com.app.falkenfoods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160102996699-34euts5krur29ksrh3mu39r4o050t7lf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1BqZA1PpdbCYeMtL5G9uiwOPRTaCusPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160102996699-34euts5krur29ksrh3mu39r4o050t7lf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

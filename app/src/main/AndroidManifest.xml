@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.falkenfoods">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".orderSuccessfully"></activity>
+        <activity android:name=".order" />
+        <activity android:name=".foodMenuDetail" />
+        <activity android:name=".foodMenu" />
+        <activity
+            android:name=".ui.cart.CartFragment"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".cartList" />
+        <activity android:name=".foodListDetailView" />
+        <activity android:name=".admin.adminMaintainFoods" />
+        <activity
+            android:name=".ViewHolder.foodViewHolder"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".admin.adminCategoryView" />
+        <activity android:name=".foodListView"></activity>
+        <activity android:name=".admin.adminMaintainView" />
+        <activity android:name=".admin.adminDashboard" />
+        <activity android:name=".admin.adminAddFood" />
+        <activity
+            android:name=".Homemenu"
+            android:label="@string/title_activity_homemenu" />
+        <activity android:name=".register" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
